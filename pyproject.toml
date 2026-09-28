@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mid-prior-yolomm"
+version = "0.1.0"
+description = "Minimal RGB-X object detection project for YOLO11-MM Mid-Prior"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "AGPL-3.0-only"}
+dependencies = [
+  "ultralytics==8.3.163",
+  "PyYAML>=5.3.1",
+]
+
+[project.optional-dependencies]
+test = ["pytest>=7"]
+
+[project.scripts]
+mid-prior-train = "mid_prior_yolo.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+mid_prior_yolo = ["configs/*.yaml"]
+
+

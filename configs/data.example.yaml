@@ -1,0 +1,16 @@
+# Replace path with the absolute path of your dataset.
+path: /absolute/path/to/dataset
+train: images/train
+val: images/val
+test: images/test
+
+# RGB and X files must have the same relative path and stem.
+# Example: images/train/0001.jpg <-> images_ir/train/0001.png
+modality:
+  rgb: images
+  ir: images_ir
+modality_used: [rgb, ir]
+
+names:
+  0: object
+

@@ -1,0 +1,20 @@
+{
+  "settings_version": "0.0.6",
+  "datasets_dir": "D:\\Master\\datasets",
+  "weights_dir": "D:\\Master\\ultralytics\\weights",
+  "runs_dir": "D:\\Master\\ultralytics\\runs",
+  "uuid": "40bfe12d7573e7b30307f22a0abfbe3c747c2a5e558d5a6e84699425347ed5cf",
+  "sync": true,
+  "api_key": "",
+  "openai_api_key": "",
+  "clearml": true,
+  "comet": true,
+  "dvc": true,
+  "hub": true,
+  "mlflow": true,
+  "neptune": true,
+  "raytune": true,
+  "tensorboard": false,
+  "wandb": false,
+  "vscode_msg": true
+}

@@ -1,0 +1,31 @@
+path: D:/Master/MutilModel-detr/MutilModel_2967924928/UCH-Net/.qa-wrf-smoke
+train: images/train
+val: images/val
+
+modality:
+  rgb: images
+  depth: images_depth
+modality_used: [rgb, depth]
+
+names:
+  0: ClayPot
+  1: bricks
+  2: box
+  3: POTS
+  4: WoodenKit
+  5: Pieces
+  6: Dish
+  7: bottle
+  8: china
+  9: Canon
+  10: Anchor
+  11: coin
+  12: Cup
+  13: Jar
+  14: WoodPile
+  15: HullRemains
+  16: Link
+  17: Barrel
+  18: Glassware
+  19: ShipWheel
+  20: Statue
