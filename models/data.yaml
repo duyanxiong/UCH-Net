@@ -1,4 +1,4 @@
-path: D:/Master/MutilModel-detr/MutilModel_2967924928/UCH-Net/.qa-wrf-smoke
+path: D:/Master/MutilModel-detr/MutilModel_2967924928/UCH-Net/models
 train: images/train
 val: images/val
 
